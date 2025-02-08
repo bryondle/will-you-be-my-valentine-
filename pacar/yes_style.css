@@ -1,0 +1,29 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px; /* Menambahkan padding untuk ruang yang lebih baik */
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk jarak yang lebih baik */
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px; /* Menambahkan border-radius untuk gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan untuk efek kedalaman */
+}
